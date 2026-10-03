@@ -1,0 +1,58 @@
+{
+  "skill_pack": "xianyu-ecommerce-pack",
+  "source_book": "《2026 年闲鱼电商副业保姆级教程》海底桃",
+  "created": "2026-10-04",
+  "notes": "trigger 路由测试用例：每组包含应命中的 skill 与不应命中的近邻负例",
+  "cases": [
+    {
+      "prompt": "我想在闲鱼卖点东西，新号刚注册，昵称头像这些要怎么设置",
+      "expect": "xianyu-shop-setup",
+      "negative": "xianyu-growth-ops"
+    },
+    {
+      "prompt": "我的链接改了三次还是搜不到，曝光量一直是两位数",
+      "expect": "xianyu-title-seo",
+      "negative": "xianyu-listing-copy"
+    },
+    {
+      "prompt": "有人看我链接就是不买，详情页要不要重写",
+      "expect": "xianyu-listing-copy",
+      "negative": "xianyu-title-seo"
+    },
+    {
+      "prompt": "这个品进价 45，闲鱼上别人卖 59，我卖多少合适，能赚几个点",
+      "expect": "xianyu-pricing-profit",
+      "negative": "xianyu-order-dashboard"
+    },
+    {
+      "prompt": "闲鱼上卖什么比较好出单，有没有什么选品方法",
+      "expect": "xianyu-product-selection",
+      "negative": "xianyu-dropshipping"
+    },
+    {
+      "prompt": "买家拍下了，我怎么在1688下单让他收不到拼多多短信",
+      "expect": "xianyu-dropshipping",
+      "negative": "xianyu-sales-service"
+    },
+    {
+      "prompt": "新链接上线一周了没什么人要，要不要补几单，怎么补",
+      "expect": "xianyu-growth-ops",
+      "negative": "xianyu-shop-setup"
+    },
+    {
+      "prompt": "买家问是不是正品能不能便宜点，我该怎么回复",
+      "expect": "xianyu-sales-service",
+      "negative": "xianyu-listing-copy"
+    },
+    {
+      "prompt": "最近单子多了，分不清哪些是补单，利润也说不清，想弄个表格",
+      "expect": "xianyu-order-dashboard",
+      "negative": "xianyu-pricing-profit"
+    },
+    {
+      "prompt": "主图用官方那张精修图行不行，还是自己拍",
+      "expect": "xianyu-product-images",
+      "negative": "xianyu-title-seo"
+    }
+  ]
+}
